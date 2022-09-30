@@ -1,6 +1,13 @@
 # xrays
 
 
+# Instructions to setup Atom (to edit the project files)
+If you don't already have a preferred code editor for this, you can use Atom
+Download from here: https://atom.io/
+
+Then download this package to view the html as you edit the website
+https://atom.io/packages/atom-html-preview
+
 # Instructions to setup localhost server
 
 Download node.js
