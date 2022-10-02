@@ -112,6 +112,9 @@ li {
 	width:720px;
 	margin:0 auto 0 auto;
 	text-align:left;
+
+	/*set it to 100% of device vertical height, ensures footer is at the bottom of screen*/
+	min-height: 100vh;
 }
 
 .introduction {
