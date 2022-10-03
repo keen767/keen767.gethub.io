@@ -218,3 +218,17 @@ li {
 #footer a:hover {
 	color:#009900;
 }
+
+a.nav {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: #f1f1f1;
+	color: black;
+	margin-bottom: 10px;
+}
+
+
+a.nav:hover {
+	background-color: #ddd;
+}
