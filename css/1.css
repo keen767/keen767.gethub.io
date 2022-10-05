@@ -220,16 +220,20 @@ li {
 	color:#009900;
 }
 
-a.nav {
+.navbar {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.navbar a {
 	text-decoration: none;
 	display: inline-block;
 	padding: 8px 16px;
 	background-color: #f1f1f1;
 	color: black;
-	margin-bottom: 10px;
 }
 
 
-a.nav:hover {
+.navbar a:hover {
 	background-color: #ddd;
 }
