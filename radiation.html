@@ -11,6 +11,8 @@
 src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
 </script>
 <script>quizdown.init();</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
 </head>
 
 
@@ -138,6 +140,21 @@ src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
 						decreases.
 					</p>
 
+					<p>
+						Recall from the previous lesson that the energy of a photon is:
+						$$E=hf=\frac{hc}{\lambda}$$
+						We know that the maximum possible energy of a X-Ray photon is equal
+						to the maximum kinetic energy of the accelerated electron, which can
+						be found using the below equation:
+						$$V\text{ - accelerating voltage}$$
+						$$e = 1.6x10^{-19}C\text{ - charge of an electron}$$
+						$$KE_{electron} = qV = eV$$
+						Combining the two equations, we can form the two equations that
+						describe the relationship between accelerating voltage and maximum
+						X-Ray photon frequency and minimum wavelength respectively:
+						$$hf_{max} = eV$$
+						$$\frac{hc}{\lambda_{min}} = eV$$
+					</p>
 
 					<h1><a name="characteristic" id="characteristic"></a>Characteristic X-Rays</h1>
 
@@ -161,7 +178,10 @@ src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
 					<p>
 							In X-Ray spectroscopy, on top of traditional atomic notation of KLMN shells,
 							we additionally use Siegbahn notation to denote the transitions of electrons
-							from upper to lower shells. <br>
+							from upper to lower shells. The first character is an english letter
+							representing the final energy level of the transition (KLMN). The
+							second character is a subscript greek letter, alpha or beta, representing
+							a transition of 1 or 2 levels respectively.<br>
 							For example, when an electron falls from the M-shell to the K-shell, the X-ray photon emitted is referred to as a K-beta X-Ray. <br>
 							The below diagram summarises the different notations.
 					</p>
@@ -177,14 +197,18 @@ src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
 						Because electrons at different electron shells can be dislodged, and
 						the vacancies created by the electron can be filled from different upper
 						electron levels, any given material can result in many different Characteristic X-Ray
-						energies. However, the likelihood of an K-alpha X-Ray being formed by
+						energies. Because the X-Ray photon's energy is based on the energy lost
+						in each transition, alpha photons have the least energy and longest wavelength. <br>
+					</p>
+					<p>
+						The likelihood of an K-alpha X-Ray being formed by
 						L-shell electron filling the K-shell vacancy is
 						higher than a K-beta X-Ray being formed by an M-shell electron
 						filling the K-shell vacancy, and likewise also applies to L-alpha and L-beta
 						X-Rays. This results in the intensity of each of the discrete energy levels
-						being different, as the number of photons created at each level is different.
-						When we measure the discrete wavelengths where these occur,
-						we call them spectral lines.
+						being different, with the intensity of K-alpha X-Rays being greater than
+						that of X-beta X-Rays. When we measure the discrete wavelengths where these
+						peaks in intensity occur, we call them spectral lines.
 					</p>
 
 					<h1><a name="spectrum" id="spectrum"></a>X-Ray Spectrum</h1>
@@ -211,7 +235,13 @@ src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
 							The continous distribution of radiation is due to Bremsstrahlung,
 							with the distinctive curve at the start before it plateaus due to
 							the relationship we established earlier, that the number of photons produced
-							(and hence intensity) increases as the photon energy decreases.
+							(and hence intensity) increases as the photon energy
+							(which has an inverse relationship with wavelength) decreases.
+							The plateau itself is due to low-energy photons (lower energy = higher wavelength)
+							being filtered out by the anode surface, x-ray tube window, or added
+							filter material (usually aluminium). In practice, low-energy photons
+							do not contribute to the formation of X-Ray images, and only serve to
+							irradiate the subject (usually human), which is undesirable.
 					</p>
 
 					<h1><a name="quiz" id="quiz"></a>Test Yourself</h1>
