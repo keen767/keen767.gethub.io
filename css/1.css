@@ -132,7 +132,6 @@ li {
 	padding-top:0;
 	padding-bottom:30px;
 	background-repeat:no-repeat;
-
 }
 .logo {
 	float:right;
@@ -203,6 +202,7 @@ li {
 	margin-left:20px;
 	margin-top:20px;
 	margin-bottom:20px;
+	width:150px;
 }
 
 #mainbar .diagram {
