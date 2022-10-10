@@ -204,6 +204,9 @@ li {
   box-sizing: border-box;
   border: 5px black;
   padding: 50px;
+	height: 450px;
+	overflow-y: auto;
+	overflow-x: hidden;
 
   image-align: center;
 }
